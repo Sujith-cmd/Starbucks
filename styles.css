@@ -1,0 +1,169 @@
+body{
+    font-family: Roboto;
+}
+.header{
+    display: flex;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(179, 176, 176);
+    padding-bottom: 15px;
+    border-bottom-width: 1px;
+    margin-top: 15px;
+
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    padding-top: -1px;
+    
+    width: 400px;
+}
+.header-center{
+
+    flex: 1;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: end;
+    padding-right: 20px;
+
+    
+}
+.logo-image{
+    margin-left: 30px;
+    height: 50px;
+    margin-top: 15px;
+    margin-right: 40px;
+}
+.header-left-elements{
+    margin: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.location-logo{
+    height: 20px;
+}
+.header-right-elements{
+    font-family: Roboto;
+    font-weight: 500;
+    
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.loacation-logo{
+   
+}
+#find-location{
+    background-color: white;
+    border-style: none;
+    font-weight: 700;
+
+}
+#sign-in{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(40, 40, 40);
+    height: 30px;
+}
+#join-now{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:black;
+    color: white;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(40, 40, 40);
+    height: 30px;
+}
+.banner{
+    display: flex;
+    
+    
+    background-color: aqua;
+    height: 420px;
+    margin-top: 20px;
+   
+}
+.banner-side{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+   align-items: center;
+}
+.banner-button{
+    font-weight: 700;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:10px;
+    padding-right:10px;
+    font-size: 16px;
+    border-radius: 15px;
+    border-color: white;
+    border-width: 2px;
+    background-color: transparent;
+    color: white;
+    
+}
+#banner-text{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    padding: 0%;
+}
+.banner-text1{
+    text-align: justify;   font-size: 45px;
+    font-weight: 700;
+    color: rgb(71, 69, 69);
+    
+    
+}
+.banner-text2{
+   font-weight: 500;
+   text-align: center;
+   font-size: 22px;
+   margin-bottom: 30px;
+    color: rgb(63, 62, 62);
+    margin-top: -2px;
+}
+.banner-button{
+    color: rgb(53, 52, 52);
+    border-color: rgb(63, 62, 62);
+    border-bottom-color: gray;
+}
+.footer{
+    padding-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 320px;
+    column-gap: 10px;
+    padding-right: 250px;
+    align-items: top;
+
+    
+}
+.footer-sub{
+    align-content: center;
+}
+.contact{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.media-icons{
+    height: 35px;
+}
+.span-class{
+    margin-left: 10px;
+    margin-right: 10px;
+}
